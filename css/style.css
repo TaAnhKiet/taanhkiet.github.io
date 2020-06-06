@@ -438,6 +438,11 @@ code {
   margin-left: 15px;
 }
 
+.mr-5{
+  position: absolute;
+  right: 0;
+}
+
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
