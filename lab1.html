@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
 
+
   </head>
   <body>
     
@@ -48,7 +49,7 @@
                     <div class="panel-body">
                         <form >
                         <div class="form-group">
-                            <label for="">Tên: </label>
+                            <label id="name" for="">Tên: </label>
                             <input type="text" class="form-control">
                             <label for="">Trạng thái: </label>
                             
@@ -60,7 +61,11 @@
                         </form>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-warning">Lưu
+                        <button 
+                            type="submit" 
+                            class="btn btn-warning" 
+                            onclick="onSave()"
+                            id="save">Lưu
                             <i class="fa fa-save"></i>
                         </button>&nbsp;
                         <button type="button" class="btn btn-default">Hủy
@@ -156,6 +161,7 @@
                 </div>
             </div>
         </div>
+        <p class="text-center">Hình phát thảo ban đầu:<a href="images/sketchLab1.jpg"> Liên kết</a></p>
     </div>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -175,6 +181,8 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="js/lab1.js"></script>
   </body>
 </html>
